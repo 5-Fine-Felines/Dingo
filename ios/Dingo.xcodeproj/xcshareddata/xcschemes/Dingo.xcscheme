@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "dingo.app"
-               BlueprintName = "dingo"
-               ReferencedContainer = "container:dingo.xcodeproj">
+               BuildableName = "Dingo.app"
+               BlueprintName = "Dingo"
+               ReferencedContainer = "container:Dingo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "dingoTests.xctest"
-               BlueprintName = "dingoTests"
-               ReferencedContainer = "container:dingo.xcodeproj">
+               BuildableName = "DingoTests.xctest"
+               BlueprintName = "DingoTests"
+               ReferencedContainer = "container:Dingo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "dingo.app"
-            BlueprintName = "dingo"
-            ReferencedContainer = "container:dingo.xcodeproj">
+            BuildableName = "Dingo.app"
+            BlueprintName = "Dingo"
+            ReferencedContainer = "container:Dingo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "dingo.app"
-            BlueprintName = "dingo"
-            ReferencedContainer = "container:dingo.xcodeproj">
+            BuildableName = "Dingo.app"
+            BlueprintName = "Dingo"
+            ReferencedContainer = "container:Dingo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
