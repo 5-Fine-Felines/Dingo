@@ -1,16 +1,16 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import ScreenSplash from './src/app/screen/ScreenSplash';
-import ScreenOnboard from './src/app/screen/ScreenOnboard';
-import ScreenLogin from './src/app/screen/ScreenLogin';
-import Main from './src/Main';
-import 'react-native-gesture-handler';
+import ScreenSplash from '../../screen/ScreenSplash';
+import ScreenOnboard from '../../screen/ScreenOnboard';
+import ScreenLogin from '../../screen/ScreenLogin';
+import Main from '../../../Main';
+import { RootStackParamList } from '../navigation/types';
+
+const Stack = createStackNavigator<RootStackParamList>();
 
 
-const Stack = createStackNavigator();
-
-const App = () => {
+const AppNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="ScreenSplash" screenOptions={{ headerShown: false }}>
@@ -23,4 +23,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AppNavigator;
